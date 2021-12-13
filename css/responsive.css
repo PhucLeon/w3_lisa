@@ -1,0 +1,57 @@
+/*Mobile*/
+@media (max-width: 740px) {
+    .s-col-full,
+    .s-full-width {
+        width: 100%;
+    }
+    .s-pb-8 {
+        padding-bottom: 4px;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav .subnav > li > a {
+        color: white;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu {
+        display: inline-block;
+    }
+
+    #content .member-list .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-item .member-img {
+        width: 60%;
+    }
+
+    .places-list {
+        margin-top: 16px;
+        padding-bottom: 40px;
+    }
+}
